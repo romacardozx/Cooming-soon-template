@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Preloader from "./components/Preloader/Preloader";
 import Timer from "./components/Countdown/Timer";
-import Optin from "./components/Optin/Optin";
+import Optin from "./components/optin/Optin";
 
 import "./styles.css";
 
@@ -11,13 +11,13 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>
-          Website
+          Your gift 
           <br />
-          Coming Soon
+          Will be available soon! 
         </h1>
         <Timer />
-        <Optin />
         <Preloader />
+        <Optin/>
       </div>
     </div>
   );
