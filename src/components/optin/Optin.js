@@ -19,6 +19,7 @@ class Optin extends Component {
               title: "Oops... Error 404",
               text: "Estoy trabajando en tu regalo, cuando el contador llegue a 0, Vas a poder visualizar tu Giftcard en este link! Te amo!",
               footer: '<a>No seas desesperada Ana Paula!</a>',
+              confirmButtonText: 'bueno :('
             })
           }
         >
